@@ -1,0 +1,35 @@
+# Python (backend) ignores
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+/backend/__pycache__/ # Specific to backend
+/backend/.pytest_cache/
+/backend/venv/
+
+# Node (frontend) ignores
+node_modules/
+dist/
+build/
+.parcel-cache/ # If using Parcel bundler
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+
+# OS and IDE specific ignores
+.DS_Store
+.env
+.idea/
+.vscode/
+npm-debug.log
+yarn-error.log
+
+# Docker ignores
+*.log
+.dockerignore # Don't ignore itself, but useful to mention its purpose
+
+# Configuration files (if sensitive and not committed)
+# configs/local_settings.py
+# .env.localgit add .gitignore

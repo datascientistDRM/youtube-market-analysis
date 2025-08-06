@@ -1,0 +1,9 @@
+/* src/index.css or src/App.css */
+
+@import "tailwindcss";
+
+/* You can add your custom CSS here if needed */
+/* For example: */
+/* .my-custom-class {
+  @apply text-red-500 font-bold;
+} */
